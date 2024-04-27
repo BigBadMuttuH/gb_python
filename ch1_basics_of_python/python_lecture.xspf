@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Плейлист</title>
+	<trackList>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_01_basics/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%201.mp4</location>
+			<duration>8452587</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_01_basics/_doc_/2023-11-20_15_52_57.mp4</location>
+			<duration>6656958</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_02_simple_types/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%202.mp4</location>
+			<duration>7157824</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_02_simple_types/_doc_/2023-11-23_16_53_08.mp4</location>
+			<duration>8062291</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_03_collections/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%203.mp4</location>
+			<duration>7407104</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_03_collections/_doc_/2023-11-27_15_51_13.mp4</location>
+			<duration>7615391</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_04_functions/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%204.mp4</location>
+			<duration>5042560</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_04_functions/_doc_/2023-11-30_15_51_20.mp4</location>
+			<duration>6406208</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_05_Iterators_and_generators/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%205.mp4</location>
+			<duration>4345024</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_05_Iterators_and_generators/_doc_/2023-12-04_15_51_20.mp4</location>
+			<duration>6722875</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_06_modules/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%206.mp4</location>
+			<duration>3508352</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_06_modules/_doc_/2023-12-09_15_50_14.mp4</location>
+			<duration>6303101</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_07_files/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%207.mp4</location>
+			<creator>files</creator>
+			<duration>6017664</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_07_files/_doc_/2023-12-11_15_52_03.mp4</location>
+			<duration>6755500</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_08_serialize/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%208.mp4</location>
+			<duration>4762838</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_08_serialize/_doc_/2023-12-11_15_52_03.mp4</location>
+			<duration>6755500</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_09_decorators/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%209.mp4</location>
+			<duration>3584512</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_09_decorators/_doc_/2023-12-18_15_45_31.mp4</location>
+			<duration>7200921</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_10_oop/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%2010.mp4</location>
+			<duration>6140394</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_10_oop/_doc_/2023-12-22_15_51_05.mp4</location>
+			<duration>4418125</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_11_oop/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%2011.mp4</location>
+			<duration>6795669</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_11_oop/_doc_/2023-12-25_15_51_02.mp4</location>
+			<duration>5920791</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_12_oop/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%2012.mp4</location>
+			<duration>5135594</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_12_oop/_doc_/webinar_99064649215_0.MP4</location>
+			<duration>6590040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_13_exeptions/_doc_/13.mp4</location>
+			<duration>3515669</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_13_exeptions/_doc_/2024-01-12_15_41_58.mp4</location>
+			<duration>7955666</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_14_testing/_doc_/%D0%A3%D1%80%D0%BE%D0%BA%2014.%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.mp4</location>
+			<duration>5557312</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_14_testing/_doc_/2024-01-15_15_52_19.mp4</location>
+			<duration>6682333</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_15_dll/_doc_/15.mp4</location>
+			<duration>5493269</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Python/GB/ch1_basics_of_python/ls_15_dll/_doc_/2024-01-18_15_43_28.mp4</location>
+			<duration>7874875</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+	</extension>
+</playlist>

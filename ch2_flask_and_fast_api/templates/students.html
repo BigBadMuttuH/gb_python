@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<style>
+    table, th, td {
+        border: 1px solid red;
+        align-content: center;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        {% for student in students %}
+            <tr>
+                <th>{{ student.name }}</th>
+                <th>{{ student.age }}</th>
+                <th>{{ student.gender }}</th>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

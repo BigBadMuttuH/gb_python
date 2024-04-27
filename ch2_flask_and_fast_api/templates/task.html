@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+</head>
+<body>
+{% for task in taskc %}
+    <h1>Task - {{ task.id }}</h1>
+    <p>{{ task.title }}<br></p>
+    <p>{{ task.description }}<br></p>
+    <p>{{ task.status }}<br></p>
+{% endfor %}
+</body>
+</html>
