@@ -1,6 +1,6 @@
 import databases
 import sqlalchemy
-from fastapi import FastAPI
+from fastapi import FastAPI, Path
 from pydantic import BaseModel, Field
 
 DATABASE_URL = "sqlite:///instance/lesson06.db"
@@ -41,14 +41,6 @@ class User(BaseModel):
     email: str = Field(max_length=128)
 
 
-# используем только для фейковых данных
-# @app.get("/fake_users/{count}")
-# async def create_note(count: int):
-#     for i in range(count):
-#         query = users.insert().values(name=f"user{i}", email=f"user{i}@example.com")
-#         await database.execute(query)
-#     return {'message': f'Created {count} fake users'}
-
 # CRUD
 @app.post("/users/", response_model=User)
 async def create_user(user: UserIn):
@@ -59,3 +51,36 @@ async def create_user(user: UserIn):
     query = users.insert().values(**user.dict())
     last_record_id = await database.execute(query)
     return {**user.dict(), "id": last_record_id}
+
+
+@app.get("/users/", response_model=list[User])
+async def read_users():
+    query = users.select()
+    return await database.fetch_all(query)
+
+
+@app.get("/users/{user_id}", response_model=User)
+async def read_user(user_id: int):
+    query = users.select().where(users.c.id == user_id)
+    return await database.fetch_one(query)
+
+
+@app.put("/users/{user_id}", response_model=User)
+async def update_user(user_id: int, user: UserIn):
+    query = users.update().where(users.c.id == user_id).values(**user.dict())
+    await database.execute(query)
+    return {**user.dict(), "id": user_id}
+
+
+@app.delete("/users/{user_id}")
+async def delete_user(user_id: int):
+    query = users.delete().where(users.c.id == user_id)
+    await database.execute(query)
+    return {'message': 'User deleted'}
+
+
+# валидация данных
+# from fastapi import Path
+@app.get("/items/{item_id}")
+async def read_item(item_id: int = Path(..., ge=1)):
+    return {"item_id": item_id}
