@@ -39,7 +39,6 @@ urlpatterns = [
     path('about/', views.about, name='about'),
 ]
 # нужно будет перезапустить сервер
-python manage.py startapp myapp
 ```
 
 # Логирование в Django
