@@ -40,3 +40,6 @@ Traceback (most recent call last):
              ~~^~~
 ZeroDivisionError: division by zero
 "GET /myapp/about/ HTTP/1.1" 200 32
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
